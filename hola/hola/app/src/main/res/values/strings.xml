@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="datos_del_estudiante">Datos del Estudiante</string>
+    <string name="valor_de_matricula">Valor de Matricula</string>
+    <string name="Nombre">Enter Your Name</string>
+    <string name="fecha_de_nacimiento">Fecha de Nacimiento</string>
+    <string name="e_p_s">E.P.S</string>
+    <string name="entrenador">Entrenador</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="documento_de_identidad">Documento de identidad</string>
+    <string name="datos_del_acudiente">Datos del Acudiente</string>
+    <string name="hora">Hora</string>
+    <string name="datos_de_academia">Datos de Academia</string>
+    <string name="email">Email</string>
+    <string name="numero_de_celular">Numero de Celular</string>
+    <string name="dia">Dia</string>
+    <string name="Categoria">categoria</string>
+    <string name="title_activity_formulario">Formulario</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="formato_fecha">dd/mm/yyyy</string>
+    <string-array name="Sedes">
+        <item>Unidad Deportiva Tulio Ospina de Bello</item>
+        <item>Barrio Rosalpi</item>
+        <item>Parque Goretti</item>
+        <item>Cabañitas IV Etapa</item>
+    </string-array>
+    <string-array name="Categorias">
+        <item>Iniciación</item>
+        <item>Desarrollo</item>
+        <item>Competitivo</item>
+        <item>Pasarela</item>
+    </string-array>
+    <string-array name="HorariosTulioDesarrollo">
+        <item>Desarrollo Mixto L-W-V:3-5pm E:Camilo Tabares</item>
+    </string-array>
+
+    <string-array name="HorariosTulioCompetencia">
+        <item>Competencia Masculino L-W-V:5-7pm E:Camilo Tabares</item>
+    </string-array>
+
+    <string-array name="HorariosTulioPasarela">
+        <item>Pasarela U13 (Pony) Mixto L-W-V:7-9pm E:Camilo Tabares</item>
+        <item>Pasarela U13 Desarrollo L-W-V:7-9pm E:David Galindo</item>
+    </string-array>
+
+    <string-array name="HorariosRosalpi">
+        <item>Competencia Femenino L:7-9pm E:Victor Duque Ramos</item>
+        <item>Competencia Femenino M:7-9pm E:Victor Duque Ramos</item>
+        <item>Escuela y Premini Mixto W:7-9pm E:Julián Gutiérrez</item>
+        <item>Competencia Femenino J:7-9pm E:Victor Duque Ramos</item>
+        <item>Escuela y Premini Mixto V:7-9pm E:Julián Gutiérrez</item>
+    </string-array>
+    <string-array name="HorariosGoretti">
+        <item>Escuela y Desarrollo Mixto W:3-5pm E:Maicol Jaramillo</item>
+        <item>Escuela y Desarrollo Mixto W:5-7pm E:Maicol Jaramillo</item>
+        <item>Escuela y Desarrollo Mixto V:3-5pm E:Maicol Jaramillo</item>
+        <item>Escuela y Desarrollo Mixto V:5-7pm E:Maicol Jaramillo</item>
+    </string-array>
+    <string-array name="HorariosCabañitas">
+        <item>Escuela y Desarrollo Mixto M:5-7pm E:Camilo Tabares</item>
+        <item>Escuela y Desarrollo Mixto J:5-7pm E:Camilo Tabares</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_form_padre">FormPadre</string>
+    <string name="title_activity_form_est">Matricula</string>
+    <string name="title_activity_pago">Pago</string>
+    <string name="añadirEstudiante">estud</string>
+    <string name="seccionListaEstudiantes">seccion</string>
+    <string name="title_activity_detalle_estudiante">DetalleEstudiante</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

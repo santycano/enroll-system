@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="secondaryText">#757575</color>
+    <color name="dividerColor">#bdbdbd</color>
+    <color name="textIcons">#FFFFFF</color>
+    <color name="lightPrimaryColor">#c5cae9</color>
+    <color name="addEstudiante">#689f38</color>
+    <color name="editarEstudiante">#FFA000</color>
+    <color name="eliminarEstudiante">#FF5252</color>
+    <color name="transparent">#3fffffff</color>
+    <color name="light_grey">#D3D3D3</color>
+    <color name="charcoal_grey">#333366</color>
+    <color name="colorAccent">#FF5722</color>
+</resources>

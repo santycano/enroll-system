@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forms.Pago">
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="?android:attr/windowBackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:menu="@menu/navigation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="506dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="79dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/foto_estudiante"
+                android:layout_width="122dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:src="@drawable/ic_avatar_1" />
+
+            <TextView
+                android:id="@+id/labelSeccion2"
+                style="@style/lblPrimary"
+                android:layout_width="287dp"
+                android:layout_height="65dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="Lista Estudiantes"
+                android:textAllCaps="false"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="16dp" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextBuscar"
+            android:layout_width="384dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:ems="10"
+            android:hint="                         Buscar Estudiante"
+            android:inputType="number"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="86dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_above="@+id/listview"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="5dp"
+            android:background="#128675"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="155dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="91dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:padding="3dip"
+                    android:text="Pago"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:layout_width="134dp"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="70dp"
+                    android:padding="3dip"
+                    android:text="Nombre"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white" />
+            </RelativeLayout>
+
+        </TableRow>
+
+        <ListView
+            android:id="@+id/listview1"
+            android:layout_width="match_parent"
+            android:layout_height="277dp"
+            android:layout_centerInParent="true"
+            android:dividerHeight="1dp"
+            android:padding="2dp"
+            android:paddingEnd="5dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonPagar"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pagar" />
+
+            <Button
+                android:id="@+id/btnAddEstudiante"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Buscar"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="463dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    /
+
+</android.support.constraint.ConstraintLayout>
